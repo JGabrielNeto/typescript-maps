@@ -2,11 +2,10 @@ import { company, address } from 'faker/locale/pt_BR';
 
 export class Company {
   public companyName: string;
+
   public catchPhrase: string;
-  public location: {
-    lat: number;
-    lng: number;
-  };
+
+  public location: google.maps.LatLngLiteral;
 
   constructor() {
     this.companyName = company.companyName();
