@@ -1,9 +1,9 @@
 import { company, address } from 'faker/locale/pt_BR';
 
 export class Company {
-  companyName: string;
-  catchPhrase: string;
-  location: {
+  public companyName: string;
+  public catchPhrase: string;
+  public location: {
     lat: number;
     lng: number;
   };

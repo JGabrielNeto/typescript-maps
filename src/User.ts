@@ -1,8 +1,8 @@
 import { name, address } from 'faker/locale/pt_BR';
 
 export class User {
-  name: string;
-  location: {
+  public name: string;
+  public location: {
     lat: number;
     lng: number;
   };
